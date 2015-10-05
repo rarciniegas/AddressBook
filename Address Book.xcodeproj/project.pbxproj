@@ -16,6 +16,7 @@
 		8E0641A11BC2CB2E00FB49B9 /* Address_BookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0641A01BC2CB2E00FB49B9 /* Address_BookTests.m */; };
 		8E0641AD1BC2CD2D00FB49B9 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0641AC1BC2CD2D00FB49B9 /* AddressCard.m */; };
 		8E0641AF1BC2D02000FB49B9 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0641AE1BC2D02000FB49B9 /* AddressBook.m */; };
+		8E9AC6771BC310CF00B9260B /* TestProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC6761BC310CF00B9260B /* TestProgram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8E0641AB1BC2CC1200FB49B9 /* AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
 		8E0641AC1BC2CD2D00FB49B9 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
 		8E0641AE1BC2D02000FB49B9 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		8E9AC6761BC310CF00B9260B /* TestProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProgram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				8E06418B1BC2CB2D00FB49B9 /* ViewController.h */,
 				8E06418C1BC2CB2D00FB49B9 /* ViewController.m */,
 				8E06418E1BC2CB2D00FB49B9 /* Main.storyboard */,
+				8E9AC6761BC310CF00B9260B /* TestProgram.m */,
 				8E0641911BC2CB2D00FB49B9 /* Images.xcassets */,
 				8E0641931BC2CB2D00FB49B9 /* LaunchScreen.xib */,
 				8E0641841BC2CB2D00FB49B9 /* Supporting Files */,
@@ -233,6 +236,7 @@
 				8E06418D1BC2CB2D00FB49B9 /* ViewController.m in Sources */,
 				8E0641AF1BC2D02000FB49B9 /* AddressBook.m in Sources */,
 				8E06418A1BC2CB2D00FB49B9 /* AppDelegate.m in Sources */,
+				8E9AC6771BC310CF00B9260B /* TestProgram.m in Sources */,
 				8E0641871BC2CB2D00FB49B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +434,7 @@
 				8E0641A61BC2CB2E00FB49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E0641A71BC2CB2E00FB49B9 /* Build configuration list for PBXNativeTarget "Address BookTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				8E0641A91BC2CB2E00FB49B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
