@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AddressBook.h"
+//#import "AddressBook.h"
 
 
 @interface ViewController ()
@@ -17,11 +17,18 @@
 @end
 
 @implementation ViewController
-@synthesize nameText, emailText;
+@synthesize nameText, emailText, myBook;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    myBook = [AddressBook alloc];
+
+    myBook = [myBook initWithName: @"Roberto’s Address book"];
+
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,16 +44,17 @@
 - (IBAction)updateButton:(id)sender {
     
     AddressCard * myCard = [[AddressCard alloc] init];
-    AddressBook * myBook = [AddressBook alloc];
+    //AddressBook * myBook = [AddressBook alloc];
 
     
     // set up address card
     [myCard setName: nameText.text andEmail: emailText.text];
-    myBook = [myBook initWithName: @"Roberto’s Address book"];
+    //myBook = [myBook initWithName: @"Roberto’s Address book"];
     
     // Add card to the address book
     [myBook addCard: myCard];
     [myBook sort2];
+    [myBook list];
     
 
 }
