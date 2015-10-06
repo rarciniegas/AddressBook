@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize nameText, emailText;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)newButton:(id)sender {
+    nameText.text = @"";
+    emailText.text = @"";
+}
 @end
