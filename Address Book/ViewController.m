@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "AddressBook.h"
+
 
 @interface ViewController ()
+
+
 
 @end
 
@@ -28,5 +32,22 @@
 - (IBAction)newButton:(id)sender {
     nameText.text = @"";
     emailText.text = @"";
+}
+
+- (IBAction)updateButton:(id)sender {
+    
+    AddressCard * myCard = [[AddressCard alloc] init];
+    AddressBook * myBook = [AddressBook alloc];
+
+    
+    // set up address card
+    [myCard setName: nameText.text andEmail: emailText.text];
+    myBook = [myBook initWithName: @"Roberto’s Address book"];
+    
+    // Add card to the address book
+    [myBook addCard: myCard];
+    [myBook sort2];
+    
+
 }
 @end

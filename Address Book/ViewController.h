@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameText;
 @property (weak, nonatomic) IBOutlet UITextField *emailText;
 - (IBAction)newButton:(id)sender;
+- (IBAction)updateButton:(id)sender;
 
 @end
 
