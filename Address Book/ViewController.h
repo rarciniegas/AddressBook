@@ -17,6 +17,8 @@
 
 - (IBAction)newButton:(id)sender;
 - (IBAction)updateButton:(id)sender;
+- (IBAction)prevButton:(id)sender;
+- (IBAction)nextButton:(id)sender;
 
 @end
 

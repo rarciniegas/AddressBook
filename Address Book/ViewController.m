@@ -58,4 +58,11 @@
     
 
 }
+
+- (IBAction)prevButton:(id)sender {
+    [myBook lookup:nameText.text];
+}
+
+- (IBAction)nextButton:(id)sender {
+}
 @end
